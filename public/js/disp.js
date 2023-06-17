@@ -25,7 +25,8 @@ function detectar_dispositivo(){
     return dispositivo;
 }
 
-let soloMovil = false;
+// ### CAMBIAR A true SI QUIERE HABILITAR SÓLO DISPOSITIVOS MÓVILES
+let soloMovil = true;
 
 if(soloMovil){
     if(detectar_dispositivo() === 'PC'){
